@@ -92,6 +92,7 @@ ul {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .header-container-flex {
@@ -113,6 +114,7 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 
 .span-header-logo {
@@ -131,6 +133,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  padding: 24px o;
 }
 .header-navigation-link:hover,
 .header-navigation-link:focus {
@@ -160,7 +163,7 @@ ul {
 
 .hero {
   background-color: var(--navy-blue);
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 .hero-title {
   font-size: 56px;
@@ -169,9 +172,10 @@ ul {
   color: var(--white);
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.25);
-  min-width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
-  padding-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button {
   font-family: inherit;
@@ -185,6 +189,10 @@ ul {
   display: block;
   padding: 16px 32px;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -193,16 +201,15 @@ ul {
 
 /*---------Advantages------------*/
 .advantage {
+  padding: 120px 0;
 }
 .advantage-list {
   padding: 0 156px;
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .advantage-item {
-  width: calc((100% - 24 * 3) / 4);
+  flex-basis: calc((100% - 24px * 3) / 4);
 }
 .advantage-subtitle {
   font-weight: 500;
@@ -221,6 +228,7 @@ ul {
 
 /*---------Work------------*/
 .work {
+  padding-bottom: 120px;
 }
 .work-title {
   margin: 0 auto;
@@ -230,7 +238,6 @@ ul {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .work-item {
   width: calc((100% - 24 * 2) / 3);
@@ -239,17 +246,16 @@ ul {
 /*---------Team------------*/
 .team {
   background-color: var(--cloud);
+  padding: 120px 0;
 }
 .team-title {
-  padding-top: 120px;
   margin: 0 auto;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 72px;
-  padding-bottom: 120px;
 }
 .team-item {
   display: inline-flex;
@@ -295,7 +301,10 @@ ul {
 }
 
 /*!---------BODY-PORTFOLIO------------*/
-
+.main-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 /*-- -------------- Filter ------ -- */
 .filter-button {
   font-family: "Roboto", sans-serif;
@@ -315,13 +324,13 @@ ul {
 .filter-button:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid transparent;
 }
 .filter-list {
   display: flex;
   gap: 24px;
   justify-content: center;
 
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 
@@ -364,6 +373,7 @@ ul {
 .footer {
   display: block;
   background-color: var(--navy-blue);
+  padding: 100px 0;
 }
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
@@ -376,7 +386,6 @@ ul {
   max-width: 115px;
   margin-bottom: 16px;
   display: inline-block;
-  padding-top: 100px;
 }
 .span-footer-logo {
   color: var(--cloud);
@@ -387,5 +396,4 @@ ul {
   letter-spacing: 0.02em;
   color: var(--cloud);
   width: 264px;
-  padding-bottom: 100px;
 }
