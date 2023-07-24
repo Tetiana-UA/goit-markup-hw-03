@@ -207,13 +207,12 @@ ul {
   padding: 120px 0;
 }
 .advantage-list {
-  padding: 0 156px;
+  /*padding: 0 156px;*/
   display: flex;
   gap: 24px;
 }
 .advantage-item {
-  display: inline-block;
-  width: calc((100% - 24 * 3) / 4);
+  width: calc((100% - 24px * 3) / 4);
 }
 .advantage-subtitle {
   font-weight: 500;
