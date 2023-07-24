@@ -92,12 +92,12 @@ ul {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid var(--cornflower);
 }
 
 .header-container-flex {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .header-navigation {
@@ -208,10 +208,9 @@ ul {
   padding: 0 156px;
   display: flex;
   gap: 24px;
-  width: calc((100% - 24px * 3) / 4);
 }
 .advantage-item {
-  width: calc((100% - 24px * 3) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .advantage-subtitle {
   font-weight: 500;
