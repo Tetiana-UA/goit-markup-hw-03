@@ -137,6 +137,7 @@ ul {
   color: var(--navy-blue);
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .header-navigation-link:hover,
 .header-navigation-link:focus {
