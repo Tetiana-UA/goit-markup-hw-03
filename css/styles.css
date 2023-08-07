@@ -106,7 +106,6 @@ ul {
   display: flex;
   align-items: center;
   margin-right: auto;
-  gap: 76px;
 }
 .header-logo-link {
   font-family: "Raleway", sans-serif;
@@ -263,13 +262,12 @@ ul {
 }
 .team-item {
   display: inline-flex;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
   background-color: var(--white);
-  margin-bottom: 32px;
+
   width: calc((100% 24 * 3) / 4);
   text-align: center;
   border-radius: 0px 0px 4px 4px;
@@ -280,8 +278,8 @@ ul {
 
 .team-wrap {
   display: inline-block;
-  padding-bottom: 32px;
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-subtitle {
@@ -301,7 +299,6 @@ ul {
   letter-spacing: 0.02em;
   color: var(--slate);
   text-align: center;
-  padding-bottom: 32px;
 }
 
 /*!---------BODY-PORTFOLIO------------*/
