@@ -116,6 +116,7 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 
 .span-header-logo {
@@ -262,7 +263,7 @@ ul {
 }
 .team-item {
   display: inline-flex;
-  padding-bottom: 32px;
+  padding-bottom: 0px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -279,7 +280,8 @@ ul {
 
 .team-wrap {
   display: inline-block;
-  gap: 8px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .team-subtitle {
@@ -289,6 +291,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -298,6 +301,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--slate);
   text-align: center;
+  padding-bottom: 32px;
 }
 
 /*!---------BODY-PORTFOLIO------------*/
